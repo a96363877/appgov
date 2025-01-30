@@ -67,15 +67,13 @@ export default function Page() {
         <div className="mt-8 bg-white rounded-lg shadow p-6">
           <div className="flex flex-col md:flex-row items-center justify-between">
             <div className="text-right mb-4 md:mb-0">
-              <h3 className="text-xl font-bold mb-2">قريباً</h3>
-              <p className="text-gray-600">إصدار تطبيقنا على الموبايل</p>
             </div>
             <Image
-              src="/vercel.svg"
+              src="/mpa.png"
               alt="Mobile App"
-              width={200}
-              height={200}
-              className="w-64 h-auto"
+              width={1220}
+              height={400}
+              className="w-full h-auto"
             />
           </div>
         </div>
